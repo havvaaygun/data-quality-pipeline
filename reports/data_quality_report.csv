@@ -1,0 +1,10 @@
+issue_type,column,records_affected,description
+Inconsistent format,total_spend,6649,comma decimal / currency suffix
+Inconsistent format,signup_date,6624,non-ISO date format
+Missing values,signup_date,257,2.5% of rows null
+Missing values,total_spend,257,2.5% of rows null
+Missing values,city,255,2.5% of rows null
+Missing values,email,252,2.5% of rows null
+Invalid format,email,120,does not match email pattern
+Duplicate rows,all columns,117,exact duplicate records
+Out of range,age,41,"age outside [18, 100]"
